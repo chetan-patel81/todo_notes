@@ -236,37 +236,5 @@ class _ShowAllCategoryState extends State<ShowAllCategory> {
     }
   }
 
-// IconButton(
-//                         icon: const Icon(Icons.delete),
-//                         onPressed: () async {
-//                           showDialog(
-//                             context: context,
-//                             builder: (context) => AlertDialog(
-//                               title: const Text('Delete Note'),
-//                               content: const Text(
-//                                   'Are you sure you want to delete this note?'),
-//                               actions: [
-//                                 TextButton(
-//                                   child: const Text('Cancel'),
-//                                   onPressed: () => Navigator.of(context).pop(),
-//                                 ),
-//                                 TextButton(
-//                                   child: const Text('Delete'),
-//                                   onPressed: () async {
-//                                     await dbHandler.deleteNotesByIndex(index);
-//                                     // Check if the widget is still mounted before calling setState
-//                                     if (mounted) {
-//                                       setState(() {
-//                                         fetchNotes();
-//                                       });
-//                                     }
-//
-//                                     Navigator.of(context).pop();
-//                                   },
-//                                 ),
-//                               ],
-//                             ),
-//                           );
-//                         },
-//                       ),}
+
 }
