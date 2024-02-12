@@ -1,4 +1,4 @@
-
+//less use in this App due to flexible & expanded widget use 
 import 'package:flutter/cupertino.dart';
 
 class MediaQueryService {
